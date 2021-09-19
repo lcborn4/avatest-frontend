@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import ConversationComponent from './conversation';
 
 class ListConversationsComponent extends Component {
     render() {
         return(
-            <p>Conversations</p>
+            <div>
+                <h3>Conversations</h3>
+                <ConversationComponent />
+            </div>
         )
     }
 
